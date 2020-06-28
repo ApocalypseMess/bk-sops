@@ -37,11 +37,11 @@ RUN_MODE = 'STAGING'
 #     {
 #         'default': {
 #             'ENGINE': 'django.db.backends.mysql',
-#             'NAME': '',  # 外部数据库名
-#             'USER': '',  # 外部数据库用户
-#             'PASSWORD': '',  # 外部数据库密码
-#             'HOST': '',  # 外部数据库主机
-#             'PORT': '',  # 外部数据库端口
+#             'NAME': 'bzyw',  # 外部数据库名
+#             'USER': 'admin',  # 外部数据库用户
+#             'PASSWORD': 'I38uBPhbNY',  # 外部数据库密码
+#             'HOST': '172.27.0.133',  # 外部数据库主机
+#             'PORT': '3306',  # 外部数据库端口
 #         },
 #     }
 # )
