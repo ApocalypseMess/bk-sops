@@ -23,9 +23,9 @@ from blueapps.core.celery import celery_app
 
 # app 基本信息默认设置，本地开发可以修改这里，预发布环境和正式环境会从环境变量自动获取
 RUN_VER = 'open'
-APP_ID = ''
-APP_TOKEN = ''
-BK_PAAS_HOST = ''
+APP_ID = 'bzyw'
+APP_TOKEN = '1bca7fe3-302d-4504-9862-f4c67081e500'
+BK_PAAS_HOST = 'http://paas.bk-ty.com:48080/'
 BK_URL = BK_PAAS_HOST
 
 APP_CODE = APP_ID = os.environ.get('APP_ID', APP_ID)
